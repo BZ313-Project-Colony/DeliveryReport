@@ -18,32 +18,31 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 
 ---
 
-**Proje Aşamaları:**
+**Agile Proje Yönetimi ve Proje Aşamaları:**
 
 1. **Planlama:**
-   - Proje hedefleri, beklentiler ve kapsam netleştirildi.
-   - Kaynak tahsisi, bütçe planlaması ve zaman çizelgesi hazırlandı.
-   - Risk analizi yapılarak olası sorunlar için önlemler alındı.
+   - Proje hedefleri, beklentiler ve kapsam, müşteri geri bildirimleriyle sürekli güncellenecek şekilde netleştirildi.
+   - Kaynak tahsisi, bütçe planlaması ve zaman çizelgesi, esneklik sağlayacak biçimde düzenlendi.
+   - Risk analizi yapılarak olası sorunlar için sürekli adapte edilebilecek önlemler alındı.
 
 2. **Analiz ve Tasarım:**
-   - Kullanıcı ve sistem gereksinimleri detaylı bir şekilde incelendi.
-   - Sistem mimarisi, teknolojik altyapı ve kullanılacak araçlar belirlendi.
-   - Kullanıcı deneyimi (UX) tasarımı için ilk taslaklar oluşturuldu.
+   - Kullanıcı ve sistem gereksinimleri, düzenli müşteri etkileşimleriyle sürekli olarak incelendi ve güncellendi.
+   - Sistem mimarisi, teknolojik altyapı ve kullanılacak araçlar, sık sık tekrarlanan tasarım toplantıları sonucunda belirlendi.
+   - Kullanıcı deneyimi (UX) tasarımı için sürekli geri bildirim alınarak ve prototipler oluşturularak şekillendirildi.
 
 3. **Geliştirme:**
-   - QR kod okuma ve doğrulama modülleri geliştirilerek entegre edildi.
-   - Kullanıcı arayüzü ve kullanıcı deneyimi (UI/UX) tasarımları uygulandı.
-   - Veritabanı tasarımı ve entegrasyonu tamamlandı.
+   - QR kod okuma ve doğrulama modülleri, kısa süreli geliştirme iterasyonları içinde oluşturulup entegre edildi.
+   - Kullanıcı arayüzü ve kullanıcı deneyimi (UI/UX) tasarımları, müşteri geri bildirimlerine dayalı olarak hızlıca uygulandı.
+   - Veritabanı tasarımı ve entegrasyonu, sürekli entegrasyon ve test süreçleri içinde tamamlandı.
 
 4. **Test:**
-   - Sistemin tüm modüllerinde kapsamlı fonksiyonel testler yapıldı.
-   - Kullanıcı kabul testleri (UAT) ile gerçek kullanıcı deneyimleri incelendi.
-   - Performans, güvenlik ve yük testleri başarıyla tamamlandı.
+   - Sistemin tüm modüllerinde sık sık tekrarlanan kapsamlı fonksiyonel testler yapıldı.
+   - Kullanıcı kabul testleri (UAT), müşteri ile sürekli işbirliği içinde gerçek kullanıcı deneyimlerini değerlendirdi.
+   - Performans, güvenlik ve yük testleri, geliştirme süreci boyunca düzenli olarak uygulandı.
 
 5. **Uygulama ve Dağıtım:**
-   - Sistem, pilot grupla test edilerek gerçek kullanım koşullarında değerlendirildi.
-   - Geri bildirimler ışığında son iyileştirmeler yapıldı.
-   - Sistem kullanıma hazır hale getirildi ve dağıtım süreci başlatıldı.
+   - Sistem, pilot gruplarla düzenli geri bildirim alınarak ve sürekli iyileştirme prensipleri doğrultusunda test edildi.
+   - Geri bildirimlere dayalı olarak sürekli iyileştirmeler yapılarak sistem, hızlı bir şekilde kullanıma hazır hale getirildi ve sürekli dağıtım süreci başlatıldı.
 
 ---
 
@@ -63,6 +62,8 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 
 ## Kullanma Kılavuzu
 ### Admin Panel
+**Kullanıcı adı** : `admin` <br>
+**Şifre** : `12345678`
 ![login](./images/login.png)
 ![events](./images/events.png)
 ![create_event](./images/create_event.png)
