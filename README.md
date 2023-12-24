@@ -67,6 +67,7 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 ![login](./images/events.png)
 ![login](./images/create_event.png)
 ![login](./images/events_2.png)
+![login](./images/event_detail.png)
 
 ## Müşteriye Projenin Teslim Şekli
 
