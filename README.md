@@ -62,12 +62,11 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 ---
 
 ## Kullanma Kılavuzu
-### Backend QRPass Service
 ![login](./images/login.png)
-![login](./images/events.png)
-![login](./images/create_event.png)
-![login](./images/events_2.png)
-![login](./images/event_detail.png)
+![events](./images/events.png)
+![create_event](./images/create_event.png)
+![events_2](./images/events_2.png)
+![event_detail](./images/event_detail.png)
 
 ## Müşteriye Projenin Teslim Şekli
 
