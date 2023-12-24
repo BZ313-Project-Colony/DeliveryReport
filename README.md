@@ -60,6 +60,19 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 
 ---
 
+## Müşteriye Projenin Teslim Şekli
+
+### Backend QRPass Service
+- QRPass web servisi ve postgres veritabanı, yüksek erişilebilirlik ve güvenilirlik sunan Heroku platformu üzerinde çalışmaktadır. Müşterimizin mail adresi Heroku'ya "collaborator" olarak eklenmiştir. Böylece tam erişim sağlanmış ve sistem yönetimi müşteriye devredilmiştir. Kaynak kodlar ve detaylı dokümantasyon müşteriye elektronik ortamda teslim edilmiştir.
+
+### Frontend Admin Panel - Event Registration Panel
+- Projenin frontend bileşenleri, kullanıcı dostu ve interaktif bir arayüz sunan Firebase üzerinde barındırılmaktadır. Müşterimizin mail adresi Firebase'e "owner" olarak eklenmiş, böylece tam kontrol sağlanmıştır. Kaynak kodlar ve kullanım kılavuzları müşteriye sağlanmıştır.
+
+### Mobile QR Scanner
+- Mobil uygulama, hem Android hem de iOS platformlarında sorunsuz çalışacak şekilde optimize edilmiştir. Uygulamanın uygulama mağazalarına yüklenmesi müşterinin tercihine bırakılmıştır. Kaynak kodlar, kurulum ve yayınlama rehberleri müşteriye teslim edilmiştir.
+
+---
+
 ## Kullanma Kılavuzu
 ### Admin Panel
 **Kullanıcı adı** : `admin` <br>
@@ -76,17 +89,6 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 ![mobil_events](./images/mobil_events.png)
 ![mobil_event_detail](./images/mobil_event_detail.png)
 ![mobil_qr_scanner](./images/mobil_qr_scanner.png)
-
-## Müşteriye Projenin Teslim Şekli
-
-### Backend QRPass Service
-- QRPass web servisi ve postgres veritabanı, yüksek erişilebilirlik ve güvenilirlik sunan Heroku platformu üzerinde çalışmaktadır. Müşterimizin mail adresi Heroku'ya "collaborator" olarak eklenmiştir. Böylece tam erişim sağlanmış ve sistem yönetimi müşteriye devredilmiştir. Kaynak kodlar ve detaylı dokümantasyon müşteriye elektronik ortamda teslim edilmiştir.
-
-### Frontend Admin Panel - Event Registration Panel
-- Projenin frontend bileşenleri, kullanıcı dostu ve interaktif bir arayüz sunan Firebase üzerinde barındırılmaktadır. Müşterimizin mail adresi Firebase'e "owner" olarak eklenmiş, böylece tam kontrol sağlanmıştır. Kaynak kodlar ve kullanım kılavuzları müşteriye sağlanmıştır.
-
-### Mobile QR Scanner
-- Mobil uygulama, hem Android hem de iOS platformlarında sorunsuz çalışacak şekilde optimize edilmiştir. Uygulamanın uygulama mağazalarına yüklenmesi müşterinin tercihine bırakılmıştır. Kaynak kodlar, kurulum ve yayınlama rehberleri müşteriye teslim edilmiştir.
 
 ---
 
