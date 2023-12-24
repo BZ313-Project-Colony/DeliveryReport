@@ -62,12 +62,19 @@ Bu rapor, QR Pass projesinin her aşamasının detaylı incelenmesi ve başarıy
 ---
 
 ## Kullanma Kılavuzu
+### Admin Panel
 ![login](./images/login.png)
 ![events](./images/events.png)
 ![create_event](./images/create_event.png)
 ![events_2](./images/events_2.png)
 ![event_detail](./images/event_detail.png)
+### Etkinlik Kayıt Paneli
 ![register_event](./images/register_event.png)
+### QR Okuyucu Mobil Uygulama
+![mobil_login](./images/mobil_login.png)
+![mobil_events](./images/mobil_events.png)
+![mobil_event_detail](./images/mobil_event_detail.png)
+![mobil_qr_scanner](./images/mobil_qr_scanner.png)
 
 ## Müşteriye Projenin Teslim Şekli
 
